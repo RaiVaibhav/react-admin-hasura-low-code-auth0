@@ -2,8 +2,7 @@
 
 This is an example [react-admin](https://marmelab.com/react-admin/) application (configuration based CRUD admin UI builder) and build on top of [react-admin-low-code](https://github.com/cpursley/react-admin-low-code) demonstrating how to use the [ra-data-hasura-graphql](https://github.com/Steams/ra-data-hasura-graphql) data provider with a [Hasura](https://hasura.io/) (automatic GraphQL API backend on top of PostgreSQL) and authentication with Auth0. By combining these technologies, you can build an entire back office admin suite in a matter of hours. 
 
-Note - This wrapper don't use `authProvider` it uses `useAuth0` hook of the [auth0-react](https://github.com/auth0/auth0-react) and wraps the child component, because this it limits various functionality which easily be achievable
-by using authProvider but we can combine `react-admin` and `auth0-react` to achive so.
+Note - This wrapper don't use `authProvider` it uses `useAuth0` hook of the [auth0-react](https://github.com/auth0/auth0-react) and wraps the child component, because of this it limits various functionality which can be easily achievable by using `authProvider` but we can combine `react-admin` and `auth0-react` to achive so.
 
 
 ## Future Plan
